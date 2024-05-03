@@ -17,3 +17,9 @@ h1{
 .titulo-destaque {
     color: #22D4FD;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
