@@ -8,6 +8,8 @@ body {
 a {
     background-color: #22D4FD;
     color: #000000;
+    margin: 0 10px;
+    font-family: 'Montserrat';
 }
 
 h1{
@@ -18,8 +20,23 @@ h1{
     color: #22D4FD;
 }
 
-.container {
+.apresentacao {
+    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__heading {
+    font-family: 'Krona One';
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__paragraph {
+    font-family: 'Montserrat';
+    font-size: 24px;
 }
