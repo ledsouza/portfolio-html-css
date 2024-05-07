@@ -24,7 +24,7 @@ body {
 .cabecalho {
     display: flex;
     justify-content: flex-start;
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 12%;
 }
 
 .cabecalho__menu {
@@ -35,7 +35,7 @@ body {
 .cabecalho__menu__link {
     text-decoration: none;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--cor-terciaria);
 }
@@ -45,14 +45,13 @@ body {
 }
 
 .apresentacao {
-    padding: 7% 15%;
+    padding: 7% 12%;
     display: flex;
     justify-content: space-between;
     gap: 83px;
 }
 
 .apresentacao__conteudo {
-    width: 593px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -61,14 +60,14 @@ body {
 .apresentacao__conteudo__heading {
     text-align: left;
     font-family: var(--fonte-primaria);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 200;
 }
 
 .apresentacao__conteudo__paragraph {
     text-align: justify;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links {
@@ -82,7 +81,7 @@ body {
 
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
@@ -90,14 +89,14 @@ body {
     justify-content: center;
     gap: 16px;
     padding: 16px;
-    width: 381px;
+    width: 23.81rem;
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     color: var(--cor-secundaria);
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link:hover {
@@ -105,13 +104,13 @@ body {
 }
 
 .apresentacao__logoImagem {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .apresetacao__imagem {
-    width: 488px;
-    height: 550px;
+    width: 30.5rem;
+    height: 34.37rem;
     border-radius: 15%;
     border: var(--cor-terciaria) solid 5px;
     transform: scale(0.8);
@@ -122,6 +121,18 @@ body {
     background-color: var(--cor-terciaria);
     padding: 23.64px;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .cabecalho {
+        justify-content: center;
+        padding: 2% 15% 0% 15%;
+    }
 }
