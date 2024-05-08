@@ -153,13 +153,18 @@ body {
 }
 
 @media (max-width: 1200px) {
+
+    .cabecalho {
+        justify-content: center;
+        padding: 2% 15% 0% 15%;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    .cabecalho {
-        justify-content: center;
-        padding: 2% 15% 0% 15%;
+    .apresentacao__conteudo__paragraph {
+        text-align: left;
     }
 }
