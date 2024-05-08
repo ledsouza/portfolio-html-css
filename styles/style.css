@@ -108,19 +108,25 @@ body {
     height: 2rem;
 }
 
-.apresetacao__imagem {
+.apresentacao__imagemSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apresentacao__imagem {
     width: auto;
-    height: 34.37rem;
+    height: auto;
     border-radius: 15%;
     border: var(--cor-terciaria) solid 5px;
-    transform: scale(0.8);
 }
 
 .apresentacao__skills__heading {
+    padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
     font-family: var(--fonte-primaria);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
 }
 
@@ -132,8 +138,8 @@ body {
 }
 
 .logoSkills {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .rodape {
