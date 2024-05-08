@@ -45,7 +45,7 @@ body {
 }
 
 .apresentacao {
-    padding: 7% 12%;
+    padding: 6% 12%;
     display: flex;
     justify-content: space-between;
     gap: 83px;
@@ -58,7 +58,7 @@ body {
 }
 
 .apresentacao__conteudo__heading {
-    text-align: left;
+    text-align: justify;
     font-family: var(--fonte-primaria);
     font-size: 2rem;
     font-weight: 200;
@@ -109,11 +109,31 @@ body {
 }
 
 .apresetacao__imagem {
-    width: 30.5rem;
+    width: auto;
     height: 34.37rem;
     border-radius: 15%;
     border: var(--cor-terciaria) solid 5px;
     transform: scale(0.8);
+}
+
+.apresentacao__skills__heading {
+    padding-bottom: 32px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.apresentacao__skills__logos {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logoSkills {
+    width: 3rem;
+    height: 3rem;
 }
 
 .rodape {
