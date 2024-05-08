@@ -45,7 +45,7 @@ body {
 }
 
 .apresentacao {
-    padding: 6% 12%;
+    padding: 4% 12%;
     display: flex;
     justify-content: space-between;
     gap: 83px;
@@ -58,7 +58,7 @@ body {
 }
 
 .apresentacao__conteudo__heading {
-    text-align: justify;
+    text-align: center;
     font-family: var(--fonte-primaria);
     font-size: 2rem;
     font-weight: 200;
