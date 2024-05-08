@@ -65,6 +65,7 @@ body {
 }
 
 .apresentacao__conteudo__paragraph {
+    width: auto;
     text-align: justify;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -89,14 +90,14 @@ body {
     justify-content: center;
     gap: 16px;
     padding: 16px;
-    width: 23.81rem;
+    width: 50%;
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     color: var(--cor-secundaria);
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .apresentacao__links__link:hover {
@@ -104,8 +105,8 @@ body {
 }
 
 .apresentacao__logoImagem {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .apresentacao__imagemSkills {
@@ -147,7 +148,7 @@ body {
     background-color: var(--cor-terciaria);
     padding: 23.64px;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
 }
 
